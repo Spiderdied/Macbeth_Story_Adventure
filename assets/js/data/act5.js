@@ -4,7 +4,7 @@ window.MACBETH_ACTS.push({
   "actNumber": 5,
   "taglineEn": "The Fall of the Tyrant",
   "taglineAr": "سقوطُ الطاغية",
-  "descriptionEn": "Consumed by guilt and abandoned by his realm, Macbeth watches the witches' riddles come true one by one at Dunsinane.",
+  "descriptionEn": "As Lady Macbeth is consumed by guilt and Macbeth is abandoned by his realm, the witches' riddles come true one by one at Dunsinane.",
   "descriptionAr": "فيما يلتهمُ الذنبُ روحَ الملكة وينفضّ الأنصارُ عن ماكبث، تتحقّق ألغازُ الساحرات تباعًا عند أسوار «دونسينان».",
   "scenes": [
     {
@@ -112,7 +112,7 @@ window.MACBETH_ACTS.push({
       "locationEn": "Within Dunsinane Castle",
       "locationAr": "داخل قلعة دونسينان",
       "previewEn": "Inside Dunsinane, Macbeth hears the cry of women announcing Lady Macbeth's death—moments before a lookout reports that Birnam Wood is moving.",
-      "previewAr": "داخل قلعة دونسينان، يسمع ماكبث صراخَ النّساء معلنًا موتَ الليدي ماكبث — قبل لحظاتٍ من وصول حارسٍ يخبره بأنّ غابة بيرنام تتحرّك نحو القلعة.",
+      "previewAr": "داخل قلعة دونسينان، يسمع ماكبث صراخَ النساء، ثم يبلغه سيتون موتَ الليدي ماكبث — قبل لحظاتٍ من وصول حارسٍ يخبره بأنّ غابة بيرنام تتحرّك نحو القلعة.",
       "segments": [
         {
           "en": "Within the walls of Dunsinane, Macbeth marches out with Seyton, a drummer, and his remaining soldiers, ordering his banners hung out upon the outer ramparts. Though the cry is still 'They come!', he boasts that his castle's stone strength will laugh a siege to scorn: let the invaders sit outside until famine and fever eat them up. Were the enemy not reinforced by the Scottish deserters who should have been fighting on his side, Macbeth growls, he might have met them beard-to-beard in the open field and beaten them back home.",

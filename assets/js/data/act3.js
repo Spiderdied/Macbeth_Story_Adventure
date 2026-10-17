@@ -92,7 +92,7 @@ window.MACBETH_ACTS.push({
       "sceneNumber": 4,
       "locationEn": "The great banquet hall in the palace at Forres",
       "locationAr": "قاعة الوليمة الكبرى في قصر فوريس",
-      "previewEn": "At his royal coronation feast, Macbeth learns that Fleance has escaped—and finds a terrifying uninvited guest sitting in his chair.",
+      "previewEn": "At the royal banquet, Macbeth learns that Fleance has escaped—and finds a terrifying uninvited guest sitting in his chair.",
       "previewAr": "في وليمة تتويجه الملكية، يعلم ماكبث بنجاة فلينس — ثمّ يفاجأ بضيفٍ مروّعٍ غير مدعوّ يجلس على كرسيّه الملكيّ.",
       "segments": [
         {
