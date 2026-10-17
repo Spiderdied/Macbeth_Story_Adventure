@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Macbeth Story Adventure — Bilingual Interactive Tragedy</title>
+  <meta name="description" content="Explore Shakespeare's Macbeth scene by scene in this dark-castle adventure: modern English narration with Arabic translation, progress tracking, and 5 acts of tragic storytelling.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to story</a>
+
+  <header class="navbar">
+    <div class="navbar-inner">
+      <button type="button" class="brand" id="brand-btn" aria-label="Macbeth Story Adventure — home">
+        <svg class="crown candle" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+          <path d="M14 42 L17 22 L25 32 L32 18 L39 32 L47 22 L50 42 Z" fill="currentColor"/>
+          <rect x="14" y="45" width="36" height="4" rx="2" fill="currentColor"/>
+          <circle cx="17" cy="20" r="2.4" fill="currentColor"/>
+          <circle cx="32" cy="15.5" r="2.8" fill="currentColor"/>
+          <circle cx="47" cy="20" r="2.4" fill="currentColor"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-title">MACBETH</span>
+          <span class="brand-sub">STORY ADVENTURE</span>
+        </span>
+      </button>
+
+      <nav class="location" aria-label="Current location">
+        <span aria-hidden="true">✦</span>
+        <span id="location-text" class="location-text"></span>
+      </nav>
+
+      <div class="navbar-actions">
+        <div class="overall-progress" id="overall-progress" aria-hidden="true">
+          <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+          <span class="progress-count" id="progress-count"></span>
+        </div>
+        <button type="button" class="btn btn-ghost btn-sm" id="map-btn" aria-label="Return to the adventure map">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 2a8 8 0 0 1 5.29 14l-1.9-5.63a2.5 2.5 0 0 0-4.24-.85L9.2 13.6a2.5 2.5 0 0 0 .24 3.34l.86.86A8 8 0 0 1 12 4z"/><circle cx="12" cy="12" r="1.5"/></svg>
+          <span class="hide-sm">Map</span>
+        </button>
+        <button type="button" class="btn btn-ghost btn-icon btn-sm" id="reset-btn" aria-label="Reset all progress">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="main" aria-live="polite"></main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <svg class="crown-small" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <path d="M14 42 L17 22 L25 32 L32 18 L39 32 L47 22 L50 42 Z" fill="currentColor"/>
+        <rect x="14" y="45" width="36" height="4" rx="2" fill="currentColor"/>
+      </svg>
+      <p class="footer-en">Macbeth Story Adventure — your reading companion to Shakespeare’s <em>Macbeth world</p>
+      <p class="footer-ar" dir="rtl" lang="ar">«ماكبث: مغامرة القصة» — رفيقٌك لعالم مأساة شكسبير · </p>
+    </div>
+  </footer>
+
+  <!-- Reset confirmation dialog -->
+  <div class="dialog-backdrop" id="reset-dialog" hidden>
+    <div class="dialog" role="alertdialog" aria-modal="true" aria-labelledby="reset-title" aria-describedby="reset-desc">
+      <div class="dialog-ornament" aria-hidden="true"></div>
+      <h2 id="reset-title" class="dialog-title">Burn the Scrolls?</h2>
+      <p id="reset-desc" class="dialog-desc">This will erase every completed scene and return you to the beginning of the adventure. This cannot be undone.</p>
+      <p class="dialog-desc-ar" dir="rtl" lang="ar">سيؤدّي هذا إلى محو جميع المشاهد المكتملة وإعادتك إلى بداية المغامرة، ولا يمكن التراجع عن هذا الإجراء.</p>
+      <div class="dialog-actions">
+        <button type="button" class="btn btn-danger" id="confirm-reset">Reset Everything</button>
+        <button type="button" class="btn btn-outline" id="cancel-reset">Keep My Progress</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Story data (order matters) -->
+  <script src="assets/js/data/act1.js"></script>
+  <script src="assets/js/data/act2.js"></script>
+  <script src="assets/js/data/act3.js"></script>
+  <script src="assets/js/data/act4.js"></script>
+  <script src="assets/js/data/act5.js"></script>
+
+  <!-- App (order matters) -->
+  <script src="assets/js/progress.js"></script>
+  <script src="assets/js/story.js"></script>
+  <script src="assets/js/navigation.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
